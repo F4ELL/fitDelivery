@@ -77,8 +77,21 @@ button{
     transition: ease .5s;
 }
 
-input,textarea::placeholder{
+.buttons_profile {
+    width: 260px;
+    height: 260px;
+    margin-top:300px;
+    border-radius: 15px;
+
+}
+.buttons_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons_home h1{
     font-weight: bold;
+    font-size: 34px;
 }
 
 textarea:{

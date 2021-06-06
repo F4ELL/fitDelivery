@@ -77,13 +77,18 @@ button{
     width: 260px;
     height: 260px;
     margin-top:300px;
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
-.buttons_home {
+.buttons_home{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 16px;
+
+}
+.buttons_home h1{
+    font-weight: bold;
 }
 
 input,textarea::placeholder{

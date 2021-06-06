@@ -72,6 +72,19 @@ button{
     color: white;
 }
 
+.buttons_profile {
+    width: 260px;
+    height: 260px;
+    margin-top:300px;
+    border-radius: 5px;
+
+}
+.buttons_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 input,textarea::placeholder{
     font-weight: bold;
 }

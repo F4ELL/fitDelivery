@@ -94,7 +94,7 @@ button{
     font-size: 34px;
 }
 
-textarea:{
+textarea{
     font-weight: bold;
     color: #433485;
 }
@@ -140,6 +140,7 @@ button:hover{
     border-radius: 5px; 
     align-items: center;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.199);
+    margin-bottom: 20px;
 }
 
 #date-user{

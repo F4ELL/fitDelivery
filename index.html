@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="styles.css">
     <title>fitDelivery</title>
 </head>
-<body>
-    <form action="">
+<body>    
         <div class="container">
             <h1>fit<b>Delivery</b></h1>
             <h2><b>Cadastro de Marmitas</b></h2>
             <span>Produto criado com sucesso.</span>
+            
             <label>Nome do Produto</label>
-            <input type="text" placeholder="Ex: Marmita Vegana com Legumes">
+            <input type="text" id="name-product" placeholder="Ex: Marmita Vegana com Legumes">
+            
             <label>Descrição do Produto</label>
             <textarea id="input-description" rows="5" placeholder="Ex: 200g de batata, 400g  de macarrão, 500g de cenoura, 100g de abobrinha."></textarea>
+            
             <label>Preço do Produto</label>
-            <input type="text" placeholder="Ex: R$ 10,00">
+            <input type="number" id="price-product" placeholder="Ex: R$ 10,00">
+            
             <label>Imagem do Produto</label>
-            <input type="text" placeholder="Ex: https://www.lironboylston.com/wp-conten...">
-            <button>Criar</button>
+            <input type="text" id="image-product" placeholder="Ex: https://www.lironboylston.com/wp-conten...">
+            
+            <button onclick="cria_marmitas()">Criar</button>
         </div>
-    </form>
+    
     <div class="img-background"></div>
+    <script src="script.js"></script>
 </body>
 </html>

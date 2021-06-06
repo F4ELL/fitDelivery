@@ -28,3 +28,16 @@ function cria_marmitas(){
         document.getElementById("erro").innerText="Erro ao criar o produto." 
     }
 }
+
+function getUsers(){
+    fetch("https://fitdelivery-api.herokuapp.com/users").then(res => res.json()).then(res => {
+        res.map(user => {
+            document.getElementById("list").innerHTML += `
+            <div class="card">
+            <b>${user.email}</b>
+            <b id="date-user">${user.created_at.split("T")[0]}</b>
+            </div>
+            `
+        })
+    })
+}

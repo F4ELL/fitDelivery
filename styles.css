@@ -84,11 +84,10 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 16px;
-
 }
 .buttons_home h1{
     font-weight: bold;
+    font-size: 34px;
 }
 
 input,textarea::placeholder{

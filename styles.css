@@ -70,8 +70,27 @@ button{
     border: 0;
     background-color: #503E9D;
     color: white;
+    transition: ease .5s;
 }
 
 input,textarea::placeholder{
     font-weight: bold;
+}
+
+button:hover{
+    background-color: #433485;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.img-background{
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("imgs/img_marmitas.png");
+    background-size: cover;
+    border-bottom-left-radius: 60px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.397);
 }

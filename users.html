@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>fitDelivery</title>
 </head>
-<body>
+<body onload="getUsers()">
     <div class="container">
         <h1>fit<b>Delivery</b></h1>
         <h2 id="subtitle">Todos os usuários</h2>
-        <span id="span-users">Aqui está listado todos os usuários da aplicação.</span>
-        <div class="card">
-            <b>dev@email.com</b>
-            <b id="date-user">12-03-2021</b>
-        </div>
+        <span id="span-users">Aqui está listado todos os usuários da aplicação.</span>        
+        <div id="list"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

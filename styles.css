@@ -19,16 +19,19 @@ body{
 h1{
     font-weight: normal;
     font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 25px;    
 }
 
 span{
     font-size: 20px;
     color: #3E9D7B;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 label{
@@ -42,8 +45,25 @@ input{
     height: 40px;
     padding: 15px;
     margin-bottom: 10px;
+    background-color:#E5E5E5;
+    border-radius: 5px;
+    border: 0;
 }
 
 #input-description{
     height: 100px;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 0;
+    background-color: #503E9D;
+    color: white;
+
 }

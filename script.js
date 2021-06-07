@@ -29,13 +29,12 @@ function cria_marmitas(){
     }
 }
 function getPedidos(){
-    fetch("https://fitdelivery-api.herokuapp.com/foods").then(res => res.json()).then(res => {
+    fetch("https://fitdelivery-api.herokuapp.com/orders").then(res => res.json()).then(res => {
         res.map(food => {
-            document.getElementById("pedido").innerHTML += `
+            document.getElementById("list").innerHTML += `
             <div class="card">
-            <b>${food.image_product}</b>
-            <b id="date-food">${food.date.split("T")[0]}</b>
-            <b id="date-food">${food.price_product.split("T")[0]}</b>
+            <img src="./imgs/alert.png"/>
+            <b id="date-food">${food.created_at.split("T")[0]}</b>
             </div>
             `
         })

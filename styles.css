@@ -46,7 +46,7 @@ input{
     width: 400px;
     padding: 15px;
     margin-bottom: 10px;
-    background-color:#E5Eflex-center5E5;
+    background-color:#E5E5E5;
     border-radius: 5px;
     border: none;
     outline: 0;
@@ -86,13 +86,13 @@ button{
 }
 .buttons_home{
     display: flex;
-    flex-direction: row;flex-center
+    flex-direction: row;
     justify-content: space-around;
 }
-.buttons_home h1{flex-center
+.buttons_home h1{
     font-weight: bold;
     font-size: 34px;
-}flex-center
+}
 
 textarea{
     font-weight: bold;

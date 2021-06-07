@@ -146,3 +146,16 @@ button:hover{
 #date-user{
     color: #433485;
 }
+
+.total{
+    color: #433485;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.card  .alert__card{
+    margin-right: 10px;
+}

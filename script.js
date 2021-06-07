@@ -28,6 +28,21 @@ function cria_marmitas(){
         document.getElementById("erro").innerText="Erro ao criar o produto." 
     }
 }
+function getPedidos(){
+    fetch("https://fitdelivery-api.herokuapp.com/orders").then(res => res.json()).then(res => {
+        res.map(food => {
+            document.getElementById("list").innerHTML += `
+            <div class="card">
+                <div class="flex-center">
+                    <img class="alert__card" src="./imgs/alert.png"/>
+                    <b id="date-food">${food.created_at.split("T")[0]}</b>
+                </div>
+                <b class="total">R$ ${JSON.parse(food.products).reduce((acc, product) => acc += product.value * product.amount, 0  )}</b>
+            </div>
+            `
+        })
+    })
+}
 
 function getUsers(){
     fetch("https://fitdelivery-api.herokuapp.com/users").then(res => res.json()).then(res => {

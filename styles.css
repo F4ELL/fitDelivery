@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 25px;    
+}
+
+span{
+    font-size: 20px;
+    color: #3E9D7B;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+#erro{
+    color: rgb(189, 2, 2) !important;
+}
+
+label{
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+input{
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color:#E5E5E5;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+}
+
+#input-description{
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color:#E5E5E5;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    resize: none;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0;
+    background-color: #503E9D;
+    color: white;
+    transition: ease .5s;
+}
+
+.buttons_profile {
+    width: 260px;
+    height: 260px;
+    margin-top:160px;
+    border-radius: 15px;
+
+}
+.buttons_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons_home h1{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+textarea{
+    font-weight: bold;
+    color: #433485;
+}
+
+button:hover{
+    background-color: #433485;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.img-background{
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("imgs/img_marmitas.png");
+    background-size: cover;
+    border-bottom-left-radius: 60px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.397);
+}
+
+#span-users{
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#span-pedidos{
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#subtitle{
+    font-weight: 600;
+    padding-bottom: 2px;
+    margin: 20px 0px 0px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 90%;
+    height: 50px;
+    background-color: #E5E5E5;
+    border-radius: 5px; 
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.199);
+    margin-bottom: 20px;
+}
+
+#date-user{
+    color: #433485;
+}
